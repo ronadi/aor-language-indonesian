@@ -1,4 +1,4 @@
-# aor-language-indonesian
+# Indonesian Translations for Admin-on-rest
 Indonesian Translations for <a href='https://github.com/marmelab/admin-on-rest'>Admin-on-rest</a>, the frontend framework for building admin applications on top of REST services.
 
 # Installation
