@@ -27,6 +27,9 @@ module.exports = {
             not_found: 'Tidak ditemukan',
         },
         input: {
+            autocomplete: {
+                none: 'Tidak dilengkapi',
+            },
             file: {
                 upload_several: 'Letakan beberapa file untuk diunggah, atau klik untuk memilihnya.',
                 upload_single: 'Letakan file yang akan diunggah, atau klik untuk memilihnya.',
@@ -34,6 +37,13 @@ module.exports = {
             image: {
                 upload_several: 'Letakan beberapa gambar untuk diunggah, atau klik untuk memilihnya.',
                 upload_single: 'Letakan gambar untuk diunggah, atau klik untuk memilihnya.',
+            },
+            references: {
+                all_missing: 'Tidak dapat menemukan data referensi.',
+                many_missing:
+                    'Setidaknya satu referensi terkait tidak lagi tersedia.',
+                single_missing:
+                    'Referensi terkait tidak lagi tersedia',
             },
         },
         message: {
@@ -45,6 +55,7 @@ module.exports = {
         },
         navigation: {
             no_results: 'Tidak ada hasil yang ditemukan',
+            no_more_results: 'Halaman %{page} berada di luar batas. Coba halaman sebelumnya.',
             page_out_of_boundaries: 'Halaman ke %{page} di luar batas',
             page_out_from_end: 'Halaman terakhir',
             page_out_from_begin: 'Halaman harus lebih besar dari pertama',
@@ -65,6 +76,7 @@ module.exports = {
             deleted: 'Elemen dihapus',
             item_doesnt_exist: 'Elemen tidak ada',
             http_error: 'Kesalahan komunikasi peladen',
+            bad_item: 'Elemen salah',
         },
         validation: {
             required: 'wajib',
